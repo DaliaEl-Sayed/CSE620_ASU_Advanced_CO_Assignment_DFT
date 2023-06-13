@@ -12,6 +12,7 @@ for k in ['Add','Sub',"Mul","Div"]:
             print("Op={};".format(k))
             print("A={};".format(i))
             print("B={};".format(j))
+            """
             print("#1")
             print('''
             if (C==A{}B) begin
@@ -21,4 +22,4 @@ for k in ['Add','Sub',"Mul","Div"]:
                 result=1;
             end
             '''.format(op))
-            print("#1")
+            print("#1") """
