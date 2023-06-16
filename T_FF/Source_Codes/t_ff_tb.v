@@ -1,11 +1,7 @@
-`timescale 1ns/10ps
-
-module half_adder_tb;
+module  t_ff_tb;
 
     reg t, clear, clk;
     wire q;
-
-    localparam period = 15;
 
     t_ff DUT(t,clear,clk,q);
 
@@ -13,47 +9,47 @@ module half_adder_tb;
         t = 0;
         clear = 1;
         clk = 0;
-        #period;
+        #5;
 
         clear = 0;
         clk = 1;
-        #period
+        #5
         if(q != 0)
             $display("test failed for q=0, t=0")
 
         clk = 0;
-        #period
+        #5
 
         t = 1;
         clk = 1;
-        #period
+        #5
         if(q != 1)
             $display("test failed for q=0, t=1")
 
         clk = 0;
-        #period
+        #5
 
         t = 0;
         clk = 1;
-        #period
+        #5
         if(q != 1)
             $display("test failed for q=1, t=0")
 
         clk = 0;
-        #period
+        #5
 
         t=1;
         clk = 1;
-        #period
+        #5
         if(q != 0)
             $display("test failed for q=1, t=1")
 
         clk = 0;
-        #period
+        #5
 
         clear = 1;
         clk = 1;
-        #period
+        #5
         if(q != 0)
             $display("test failed for clear=1")
 

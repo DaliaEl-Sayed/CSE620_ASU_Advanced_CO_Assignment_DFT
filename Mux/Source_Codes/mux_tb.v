@@ -1,4 +1,4 @@
-module alu_tb;
+module mux_tb;
 
     reg a,b,c,d;
     reg [1:0] sel;
