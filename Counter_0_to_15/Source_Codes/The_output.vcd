@@ -1,5 +1,5 @@
 $date
-	Fri Jun 16 05:09:43 2023
+	Fri Jun 16 05:53:54 2023
 $end
 $version
 	Icarus Verilog
@@ -13,109 +13,218 @@ $upscope $end
 $scope module Counter0to15TestBench $end
 $var reg 1 " Clk $end
 $upscope $end
+$scope module Counter0to15TestBench $end
+$var reg 4 # Expected_Output [3:0] $end
+$upscope $end
+$scope module Counter0to15TestBench $end
+$var reg 1 $ Fault_Indicator $end
+$upscope $end
+$scope module Counter0to15TestBench $end
+$var reg 16 % Fault_Counter [15:0] $end
+$upscope $end
 $enddefinitions $end
 #0
 $dumpvars
+b0 %
+x$
+bx #
 0"
 b0 !
 $end
 #5
 b1 !
+b1 #
 1"
 #10
+0$
 0"
 #15
 b10 !
+b10 #
 1"
 #20
 0"
 #25
 b11 !
+b11 #
 1"
 #30
 0"
 #35
 b100 !
+b100 #
 1"
 #40
 0"
 #45
 b101 !
+b101 #
 1"
 #50
 0"
 #55
 b110 !
+b110 #
 1"
 #60
 0"
 #65
 b111 !
+b111 #
 1"
 #70
 0"
 #75
 b1000 !
+b1000 #
 1"
 #80
 0"
 #85
 b1001 !
+b1001 #
 1"
 #90
 0"
 #95
 b1010 !
+b1010 #
 1"
 #100
 0"
 #105
 b1011 !
+b1011 #
 1"
 #110
 0"
 #115
 b1100 !
+b1100 #
 1"
 #120
 0"
 #125
 b1101 !
+b1101 #
 1"
 #130
 0"
 #135
 b1110 !
+b1110 #
 1"
 #140
 0"
 #145
 b1111 !
+b1111 #
 1"
 #150
 0"
 #155
 b0 !
+b0 #
 1"
 #160
 0"
 #165
 b1 !
+b1 #
 1"
 #170
 0"
 #175
 b10 !
+b10 #
 1"
 #180
 0"
 #185
 b11 !
+b11 #
 1"
 #190
 0"
 #195
 b100 !
+b100 #
 1"
 #200
 0"
+#205
+b101 !
+b101 #
+1"
+#210
+0"
+#215
+b110 !
+b110 #
+1"
+#220
+0"
+#225
+b111 !
+b111 #
+1"
+#230
+0"
+#235
+b1000 !
+b1000 #
+1"
+#240
+0"
+#245
+b1001 !
+b1001 #
+1"
+#250
+0"
+#255
+b1010 !
+b1010 #
+1"
+#260
+0"
+#265
+b1011 !
+b1011 #
+1"
+#270
+0"
+#275
+b1100 !
+b1100 #
+1"
+#280
+0"
+#285
+b1101 !
+b1101 #
+1"
+#290
+0"
+#295
+b1110 !
+b1110 #
+1"
+#300
+0"
+#305
+b1111 !
+b1111 #
+1"
+#310
+0"
+#315
+b0 !
+b0 #
+1"
+#320
+0"
+#325
+b1 !
+b1 #
+1"
