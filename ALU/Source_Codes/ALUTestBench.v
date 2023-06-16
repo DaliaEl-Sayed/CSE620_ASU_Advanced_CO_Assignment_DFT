@@ -47,11 +47,11 @@ always @(posedge clk) begin
 end
 always @(negedge clk)begin
 	if (C==Expected_Output) begin
-		$display ("Test Passed A-> %d OP-> %b B-> %d - Expected Result -> %d - And ALU Result is -> %d ", A, Op, B, Expected_Output, C);
+		$display ("Test Passed (A->%d) (OP->%b) (B->%d) - (Expected Result ->%d) - (And ALU Result is ->%d) ", A, Op, B, Expected_Output, C);
 		Fault_Indicator = 0;
 	end
 	else begin
-		$display ("Test FAILED!! A-> %d OP-> %b B-> %d - Expected Result -> %d - But ALU Result is -> %d ", A, Op, B, Expected_Output,C);
+		$display ("Test FAILED!! (A->%d) (OP->%b) (B->%d) - (Expected Result->%d) - (But ALU Result is->%d) ", A, Op, B, Expected_Output,C);
 		Fault_Indicator = 1;
 		Fault_Counter = Fault_Counter + 1;
 	end
