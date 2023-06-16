@@ -1,0 +1,44 @@
+$date
+	Fri Jun 16 08:19:41 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module half_adder_tb $end
+$var reg 1 ! a $end
+$upscope $end
+$scope module half_adder_tb $end
+$var reg 1 " b $end
+$upscope $end
+$scope module half_adder_tb $end
+$var wire 1 # s $end
+$upscope $end
+$scope module half_adder_tb $end
+$var wire 1 $ c $end
+$upscope $end
+$scope module half_adder_tb $end
+$var reg 1 % Fault_Indicator $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0%
+0$
+0#
+0"
+0!
+$end
+#5
+1#
+1"
+#10
+0"
+1!
+#15
+0#
+1$
+1"
+#20
