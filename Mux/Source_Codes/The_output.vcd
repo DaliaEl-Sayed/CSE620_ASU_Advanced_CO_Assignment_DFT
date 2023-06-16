@@ -1,5 +1,5 @@
 $date
-	Fri Jun 16 10:47:28 2023
+	Fri Jun 16 13:49:14 2023
 $end
 $version
 	Icarus Verilog
@@ -7,25 +7,25 @@ $end
 $timescale
 	1s
 $end
-$scope module alu_tb $end
+$scope module mux_tb $end
 $var reg 1 ! a $end
 $upscope $end
-$scope module alu_tb $end
+$scope module mux_tb $end
 $var reg 1 " b $end
 $upscope $end
-$scope module alu_tb $end
+$scope module mux_tb $end
 $var reg 1 # c $end
 $upscope $end
-$scope module alu_tb $end
+$scope module mux_tb $end
 $var reg 1 $ d $end
 $upscope $end
-$scope module alu_tb $end
+$scope module mux_tb $end
 $var reg 2 % sel [1:0] $end
 $upscope $end
-$scope module alu_tb $end
+$scope module mux_tb $end
 $var wire 1 & out $end
 $upscope $end
-$scope module alu_tb $end
+$scope module mux_tb $end
 $var reg 1 ' Fault_Indicator $end
 $upscope $end
 $enddefinitions $end
