@@ -10,6 +10,15 @@ module half_adder_tb;
     half_adder DUT(a,b,s,c);
 
     initial begin
+        $dumpfile("The_output.vcd");
+        $dumpvars(0,a);
+        $dumpvars(0,b);
+        $dumpvars(0,s);
+        $dumpvars(0,c);
+        
+
+    end
+    initial begin
         a = 0;
         b = 0;
         #period;
