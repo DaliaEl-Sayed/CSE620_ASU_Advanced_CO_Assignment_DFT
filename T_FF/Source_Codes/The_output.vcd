@@ -1,0 +1,59 @@
+$date
+	Fri Jun 16 14:00:33 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module t_ff_tb $end
+$var reg 1 ! t $end
+$upscope $end
+$scope module t_ff_tb $end
+$var reg 1 " clear $end
+$upscope $end
+$scope module t_ff_tb $end
+$var reg 1 # clk $end
+$upscope $end
+$scope module t_ff_tb $end
+$var wire 1 $ q $end
+$upscope $end
+$scope module t_ff_tb $end
+$var reg 1 % Fault_Indicator $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0%
+0$
+0#
+1"
+0!
+$end
+#5
+1#
+0"
+#10
+0#
+#15
+1$
+1#
+1!
+#20
+0#
+#25
+1#
+0!
+#30
+0#
+#35
+0$
+1#
+1!
+#40
+0#
+#45
+1#
+1"
+#50

@@ -1,4 +1,4 @@
-module t_ff(t, clear. clk, q);
+module t_ff(t, clear, clk, q);
 
     input t, clear, clk;
     output reg q;
