@@ -13,7 +13,7 @@ end
 
 always @ (posedge Clk) begin
 
-Count <= Count + 1 ;
+	Count <= Count + 1;
 
 end 
 

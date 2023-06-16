@@ -40,9 +40,6 @@ initial begin
 end 
 
 always @(posedge clk) begin
-	/*A = 0;
-	B = 1;
-	Op = Mul;*/
 	{A[3:0], Op[1:0], B[3:0],  Expected_Output[3:0] } = Testvectors[vectornum];
 end
 always @(negedge clk)begin
